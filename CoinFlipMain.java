@@ -16,6 +16,12 @@ import static traviscj.SetOfCoinflips.SetOfCoinFlipsPacked;
 //     $ javac -cp ~/protobufs_blog_post/protobuf-java-2.5.0.jar:. CoinFlipMain.java
 // run with:
 //     $ java -cp ~/protobufs_blog_post/protobuf-java-2.5.0.jar:. CoinFlipMain
+
+// or just:
+//     $ brew install redo
+//     $ redo run
+// and check in the file named 'run'
+
 public class CoinFlipMain {
   public static void main(String[] args) throws IOException {
     // basic construction:

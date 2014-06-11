@@ -1,0 +1,14 @@
+
+package traviscj;
+
+message CoinFlip {
+	optional bool heads = 1;
+}
+
+message SetOfCoinFlips {
+	repeated CoinFlip coinflips = 1;
+}
+
+message SetOfCoinFlipsPacked {
+	repeated bool coinflips = 1 [packed=true];
+}

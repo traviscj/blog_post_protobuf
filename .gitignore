@@ -1,0 +1,10 @@
+.redo
+*.class
+*~
+run
+packed_obj
+*.pyc
+traviscj
+*.jar
+set_of_coinflips_pb2.py
+single_head
